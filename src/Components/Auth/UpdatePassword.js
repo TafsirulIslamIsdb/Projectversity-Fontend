@@ -17,7 +17,7 @@ const UpdatePassword = () => {
 
     try {
       const response = await axios.patch(
-        `http://localhost:5000/api/v1/user/${email}`,
+        `https://doc-track.onrender.com/api/v1/user/${email}`,
         data
       );
 

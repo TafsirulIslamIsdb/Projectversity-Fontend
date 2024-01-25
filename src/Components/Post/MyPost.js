@@ -307,7 +307,7 @@ const MyPost = () => {
                     <div className=" text-neutral-content rounded-full w-12">
                       <img
                         alt="Tailwind CSS Navbar component"
-                        src={`http://localhost:5000/${post.Profile_Url}`}
+                        src={`https://doc-track.onrender.com/${post.Profile_Url}`}
                       />
                     </div>
                   </div>

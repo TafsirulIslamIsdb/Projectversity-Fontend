@@ -67,7 +67,7 @@ const Header = () => {
     //       <div className="w-10 rounded-full">
     //         <img
     //           alt="Tailwind CSS Navbar component"
-    //           src={`http://localhost:5000/${image}`}
+    //           src={`https://doc-track.onrender.com/${image}`}
     //         />
     //       </div>
     //     </div>
@@ -263,12 +263,12 @@ const Header = () => {
                         <div className="">
                         <img
                           className="h-8 w-8 rounded-full"
-                          src={`http://localhost:5000/${image}`}
+                          src={`https://doc-track.onrender.com/${image}`}
                       
 
                           alt=""
                         />
-                        <br></br>
+                        
                         <span className="text-white">{`${name}`}</span>
                         </div>
                       </Menu.Button>

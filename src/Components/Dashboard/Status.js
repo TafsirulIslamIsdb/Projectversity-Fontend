@@ -62,7 +62,7 @@ const Status = () => {
                 <td>
                   <img
                     className="w-12 h-12"
-                    src={`http://localhost:5000/${post.Image}`}
+                    src={`https://doc-track.onrender.com/${post.Image}`}
                     alt=""
                   />
                 </td>
