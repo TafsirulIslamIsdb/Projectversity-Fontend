@@ -65,8 +65,8 @@ const AdminNotification = () => {
                 <tr className="bg-base-200" key={notification.Id}>
                   <td>{notification.Id}</td>
                   <td>
-                    We send a notification
-                    <span className="font-bold"> {notification.Name}.</span>
+                    We send a notification.
+                    {/* <span className="font-bold"> {notification.Name}.</span> */}
                     This is user email
                     <span className="font-bold ms-1">{notification.Email}</span>
                     <span className="ms-1">to getting his information</span>

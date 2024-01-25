@@ -12,6 +12,7 @@ const Header = () => {
   const image = localStorage.getItem("image");
   const userId = localStorage.getItem("userId");
   const Role = localStorage.getItem("role");
+  const name = localStorage.getItem("name");
 
   const navigate = useNavigate();
 
@@ -113,6 +114,7 @@ const Header = () => {
                   <div className="flex items-center flex-shrink-0">
                     <img className="w-auto h-8" src={logo} alt="Your Company" />
                   </div>
+                  <div className="text-white lg:ml-7 lg:first-line:mr-10 "> <span className="text-2xl  text-amber-500">D</span>oc <span className="text-2xl text-amber-500">T</span>rack</div>
                   <div className="hidden sm:ml-6 sm:block">
                     <div className="flex space-x-4">
                       <Link
@@ -258,11 +260,17 @@ const Header = () => {
                       <Menu.Button className="relative flex text-sm bg-gray-800 rounded-full focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                         <span className="absolute -inset-1.5" />
                         <span className="sr-only">Open user menu</span>
+                        <div className="">
                         <img
                           className="h-8 w-8 rounded-full"
                           src={`http://localhost:5000/${image}`}
+                      
+
                           alt=""
                         />
+                        <br></br>
+                        <span className="text-white">{`${name}`}</span>
+                        </div>
                       </Menu.Button>
                     </div>
                     <Transition
